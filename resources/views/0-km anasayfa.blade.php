@@ -599,7 +599,7 @@
                                 </div>
                             </div>
                         </div>
-b
+burayı nurullah yazdı
                         <div class="flex mt-8">
                             <a class="w-6 mr-1 h-6 text-gray-700 rounded-full bg-white flex justify-center items-center bg-searchButton" href="#slide-1"></a>
                             <a class="w-6 mr-1 h-6 text-gray-700 rounded-full bg-white flex justify-center items-center bg-searchButton " href="#slide-2"></a>
