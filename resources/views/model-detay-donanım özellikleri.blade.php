@@ -460,10 +460,368 @@
                     </div>
                 </div>
             </div>
+
+            <div class="w-full space-y-4 flex flex-col text-lg pt-5">
+                <h4 class="font-lato font-bold  flex justify-center">tüm donanım paketlerini göster</h4>
+                <div class="flex justify-center">
+                    <a href="">
+                        <img src="{{asset('img/Arrow 1.png')}}" class="w-5 h-5" alt="">
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 
+<div class="hardware-packages-items w-full mb-10">
+
+
+    <div class="snap-start w-11/12 h-full flex items-center justify-center flex-shrink-0 flex-grow-1 space-x-10" id="slide-1">
+        <div class="w-1/2">
+            <div class="flex flex-col justify-center items-center bg-grayBackground mx-auto rounded-2xl w-full">
+                <div class="flex divide-x divide-gray-900 w-full">
+                    <img src="{{asset('img/audi 4.png')}}" alt="">
+                    <img src="{{asset('img/audi 4.png')}}" alt="">
+                </div>
+                <div class="flex  bg-white w-11/12 my-5 rounded-2xl justify-around mx-2 ">
+                    <div class="w-1/3 flex-col flex space-y-2 justify-start">
+                        <h4 class="text-xl font-bold font-lato flex justify-center">Volkswagen Passat</h4>
+                        <span class="text-sm text-gray-400 font-lato flex justify-center">Comfortline 1.5 tsi dsg 4 motion</span>
+                        <h4 class="text-xl font-lato font-bold flex justify-center mt-10">₺ 459.590</h4>
+                    </div>
+
+                    <div class="w-1/3 flex-col flex justify-between pt-5">
+                        <div class="flex justify-center">
+                            <img src="{{asset('img/Strikethrough@2x 2.png')}}" alt="" class="w-6 h-6">
+                        </div>
+                        <div class="flex justify-center">
+                            <button class="search rounded-lg text-white bg-searchButton w-1/2">
+                                karşılaştır
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="w-1/3 flex-col flex space-y-2 justify-start">
+                        <h4 class="text-xl font-bold font-lato flex justify-center">Volkswagen Passat</h4>
+                        <span class="text-sm text-gray-400 font-lato flex justify-center">Comfortline 1.5 tsi dsg 4 motion</span>
+                        <h4 class="text-xl font-lato font-bold flex justify-center mt-10">₺ 459.590</h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="w-1/2">
+            <div class="flex flex-col justify-center items-center bg-grayBackground mx-auto rounded-2xl w-full" >
+                <div class="flex divide-x divide-gray-900">
+                    <img src="{{asset('img/audi 4.png')}}" alt="">
+                    <img src="{{asset('img/audi 4.png')}}" alt="">
+                </div>
+                <div class="flex  bg-white w-11/12 my-5 rounded-2xl justify-around mx-2">
+                    <div class="w-1/3 flex-col flex space-y-2 justify-start">
+                        <h4 class="text-xl font-bold font-lato flex justify-center">Volkswagen Passat</h4>
+                        <span class="text-sm text-gray-400 font-lato flex justify-center">Comfortline 1.5 tsi dsg 4 motion</span>
+                        <h4 class="text-xl font-lato font-bold flex justify-center mt-10">₺ 459.590</h4>
+                    </div>
+
+                    <div class="w-1/3 flex-col flex justify-between pt-5">
+                        <div class="flex justify-center">
+                            <img src="{{asset('img/Strikethrough@2x 2.png')}}" alt="" class="w-6 h-6">
+                        </div>
+                        <div class="flex justify-center">
+                            <button class="search rounded-lg text-white bg-searchButton w-1/2">
+                                karşılaştır
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="w-1/3 flex-col flex space-y-2 justify-start">
+                        <h4 class="text-xl font-bold font-lato flex justify-center">Volkswagen Passat</h4>
+                        <span class="text-sm text-gray-400 font-lato flex justify-center">Comfortline 1.5 tsi dsg 4 motion</span>
+                        <h4 class="text-xl font-lato font-bold flex justify-center mt-10">₺ 459.590</h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="user-comments mt-8 w-full">
+    <div class="flex flex-col items-center justify-center">
+        <div class="comments-title">
+            <h4 class="text-xl font-bold font-lato">kullanıcı yorumları</h4>
+        </div>
+
+        <div class="border border-gray-500 rounded-lg w-11/12 p-10 mt-10 flex flex-col">
+            <div class="comments-all overflow-hidden overflow-y-scroll flex flex-col divide-y divide-gray-900"
+                 style="height: 600px;">
+                <div class="py-10">
+                    <div class="flex flex-col space-y-3 items-start ">
+                        <div class="flex items-start space-x-3 items-center">
+                            <div class="comment-owner text-sm font-bold font-lato text-searchButton px-2">Hıdır E.</div>
+                            <div class="bg-grayBackground text-gray-500 px-2 flex-grow-1 flex-shrink-0 rounded-lg">fiat
+                                egea
+                            </div>
+                            <div class="comment-owner text-sm font-bold font-lato text-gray-400 px-2">16.07.2021</div>
+                            <div class="comment-owner text-sm font-bold font-lato text-gray-400 px-2">14:35</div>
+                        </div>
+
+                        <div class="comment-subject">
+                            <p class="font-lato text-sm">pejo20191.5fiyatı ne kadar100bin peşin ne kadar olur</p>
+                        </div>
+
+                        <div class="answer">
+                            <a href="">
+                                <span class="text-xs font-bold font-lato">yanıtla</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ml-20 answers">
+                        <div class="flex flex-col space-y-3 items-start ">
+                            <div class="flex items-start space-x-3 items-center">
+                                <div class="comment-owner text-sm font-bold font-lato text-searchButton px-2">Hıdır E.
+                                </div>
+                                <div class="bg-grayBackground text-gray-500 px-2 flex-grow-1 flex-shrink-0 rounded-lg">
+                                    fiat egea
+                                </div>
+                                <div class="comment-owner text-sm font-bold font-lato text-gray-400 px-2">16.07.2021
+                                </div>
+                                <div class="comment-owner text-sm font-bold font-lato text-gray-400 px-2">14:35</div>
+                            </div>
+
+                            <div class="comment-subject">
+                                <p class="font-lato text-sm">superb binmeden önce arabaya binmedigimi anladım çok agır
+                                    bir araç binerken kendimi çok farklı hissediyorum onun agırlıgı yol</p>
+                            </div>
+
+                            <div class="answer">
+                                <a href="">
+                                    <span class="text-xs font-bold font-lato">yanıtla</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="py-10">
+                    <div class="flex flex-col space-y-3 items-start ">
+                        <div class="flex items-start space-x-3 items-center">
+                            <div class="comment-owner text-sm font-bold font-lato text-searchButton px-2">Hıdır E.</div>
+                            <div class="bg-grayBackground text-gray-500 px-2 flex-grow-1 flex-shrink-0 rounded-lg">fiat
+                                egea
+                            </div>
+                            <div class="comment-owner text-sm font-bold font-lato text-gray-400 px-2">16.07.2021</div>
+                            <div class="comment-owner text-sm font-bold font-lato text-gray-400 px-2">14:35</div>
+                        </div>
+
+                        <div class="comment-subject">
+                            <p class="font-lato text-sm">pejo20191.5fiyatı ne kadar100bin peşin ne kadar olur</p>
+                        </div>
+
+                        <div class="answer">
+                            <a href="">
+                                <span class="text-xs font-bold font-lato">yanıtla</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ml-20 answers">
+                        <div class="flex flex-col space-y-3 items-start ">
+                            <div class="flex items-start space-x-3 items-center">
+                                <div class="comment-owner text-sm font-bold font-lato text-searchButton px-2">Hıdır E.
+                                </div>
+                                <div class="bg-grayBackground text-gray-500 px-2 flex-grow-1 flex-shrink-0 rounded-lg">
+                                    fiat egea
+                                </div>
+                                <div class="comment-owner text-sm font-bold font-lato text-gray-400 px-2">16.07.2021
+                                </div>
+                                <div class="comment-owner text-sm font-bold font-lato text-gray-400 px-2">14:35</div>
+                            </div>
+
+                            <div class="comment-subject">
+                                <p class="font-lato text-sm">superb binmeden önce arabaya binmedigimi anladım çok agır
+                                    bir araç binerken kendimi çok farklı hissediyorum onun agırlıgı yol</p>
+                            </div>
+
+                            <div class="answer">
+                                <a href="">
+                                    <span class="text-xs font-bold font-lato">yanıtla</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="py-10">
+                    <div class="flex flex-col space-y-3 items-start ">
+                        <div class="flex items-start space-x-3 items-center">
+                            <div class="comment-owner text-sm font-bold font-lato text-searchButton px-2">Hıdır E.</div>
+                            <div class="bg-grayBackground text-gray-500 px-2 flex-grow-1 flex-shrink-0 rounded-lg">fiat
+                                egea
+                            </div>
+                            <div class="comment-owner text-sm font-bold font-lato text-gray-400 px-2">16.07.2021</div>
+                            <div class="comment-owner text-sm font-bold font-lato text-gray-400 px-2">14:35</div>
+                        </div>
+
+                        <div class="comment-subject">
+                            <p class="font-lato text-sm">pejo20191.5fiyatı ne kadar100bin peşin ne kadar olur</p>
+                        </div>
+
+                        <div class="answer">
+                            <a href="">
+                                <span class="text-xs font-bold font-lato">yanıtla</span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="py-10">
+                    <div class="flex flex-col space-y-3 items-start ">
+                        <div class="flex items-start space-x-3 items-center">
+                            <div class="comment-owner text-sm font-bold font-lato text-searchButton px-2">Hıdır E.</div>
+                            <div class="bg-grayBackground text-gray-500 px-2 flex-grow-1 flex-shrink-0 rounded-lg">fiat
+                                egea
+                            </div>
+                            <div class="comment-owner text-sm font-bold font-lato text-gray-400 px-2">16.07.2021</div>
+                            <div class="comment-owner text-sm font-bold font-lato text-gray-400 px-2">14:35</div>
+                        </div>
+
+                        <div class="comment-subject">
+                            <p class="font-lato text-sm">pejo20191.5fiyatı ne kadar100bin peşin ne kadar olur</p>
+                        </div>
+
+                        <div class="answer">
+                            <a href="">
+                                <span class="text-xs font-bold font-lato">yanıtla</span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="py-10">
+                    <div class="flex flex-col space-y-3 items-start ">
+                        <div class="flex items-start space-x-3 items-center">
+                            <div class="comment-owner text-sm font-bold font-lato text-searchButton px-2">Hıdır E.</div>
+                            <div class="bg-grayBackground text-gray-500 px-2 flex-grow-1 flex-shrink-0 rounded-lg">fiat
+                                egea
+                            </div>
+                            <div class="comment-owner text-sm font-bold font-lato text-gray-400 px-2">16.07.2021</div>
+                            <div class="comment-owner text-sm font-bold font-lato text-gray-400 px-2">14:35</div>
+                        </div>
+
+                        <div class="comment-subject">
+                            <p class="font-lato text-sm">pejo20191.5fiyatı ne kadar100bin peşin ne kadar olur</p>
+                        </div>
+
+                        <div class="answer">
+                            <a href="">
+                                <span class="text-xs font-bold font-lato">yanıtla</span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="m-5 bg-grayBackground rounded flex px-5 py-5 divide-x divide-gray-600 w-full items-center hover:border-blue-800 hover:border">
+                <input type="text" placeholder="yorum yazmak için tıklayın" class="text-sm text-gray-800 w-full bg-grayBackground focus:outline-none">
+                <a href="" class="flex justify-center bg-searchButton px-3 py-6 text-white font-lato rounded-2xl">
+                    gönder
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="footer w-full">
+    <div class="flex flex-col w-11/12 mx-auto mt-10">
+        <div class="w-full flex flex-row justify-between items-start">
+            <div class="w-2/5 flex flex-col space-y-5">
+                <div>
+                    <img src="{{asset('img/ab-sifir-km-logo 1.png')}}" alt="">
+                </div>
+                <div class="models w-full flex flex-col justify-center">
+                    <h4 class="text-lg font-bold font-lato items-start flex justify-start">Markalar</h4>
+                    <div class="flex items-center flex-wrap space-y-3">
+                        <div class="w-1/2">
+                            <h4>Honda</h4>
+                        </div>
+                        <div class="w-1/2">
+                            <h4>Honda</h4>
+                        </div>
+                        <div class="w-1/2">
+                            <h4>Honda</h4>
+                        </div>
+                        <div class="w-1/2">
+                            <h4>Honda</h4>
+                        </div>
+                        <div class="w-1/2">
+                            <h4>Honda</h4>
+                        </div>
+                        <div class="w-1/2">
+                            <h4>Honda</h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="w-3/5 flex flex-col space-y-5">
+                <div class="flex items-center justify-end space-x-10 mb-10">
+                    <div class="flex space-x-3">
+                        <div
+                            class="w-8 h-8 flex justify-center items-center shadow-2xl rounded-full border border-gray-800 hover:border-blue-300">
+                            <img src="{{asset('img/apple.png')}}" alt="">
+                        </div>
+                        <div
+                            class="w-8 h-8 flex justify-center items-center shadow-2xl rounded-full border border-gray-800 hover:border-blue-300">
+                            <img src="{{asset('img/apple.png')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="flex space-x-3">
+                        <div
+                            class="w-8 h-8 flex justify-center items-center shadow-2xl rounded-full border border-gray-800 hover:border-blue-300">
+                            <img src="{{asset('img/apple.png')}}" alt="">
+                        </div>
+                        <div
+                            class="w-8 h-8 flex justify-center items-center shadow-2xl rounded-full border border-gray-800 hover:border-blue-300">
+                            <img src="{{asset('img/apple.png')}}" alt="">
+                        </div>
+                        <div
+                            class="w-8 h-8 flex justify-center items-center shadow-2xl rounded-full border border-gray-800 hover:border-blue-300">
+                            <img src="{{asset('img/apple.png')}}" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full flex flex-row items-start justify-start">
+                    <div class="w-1/3 flex flex-col space-y-2 items-start justify-start">
+                        <h4 class="text-lg font-bold font-lato items-start flex justify-start">Kurumsal</h4>
+                        <div class="flex flex-col justify-start w-full"></div>
+                        <span>Hakkımızda</span>
+                        <span>Kurumsal</span>
+                        <span>İletişim</span>
+                    </div>
+                    <div class="w-1/3 flex flex-col space-y-2 items-start justify-start">
+                        <h4 class="text-lg font-bold font-lato items-start flex justify-start">Kurumsal</h4>
+                        <div class="flex flex-col justify-start w-full"></div>
+                        <span>Hakkımızda</span>
+                        <span>Kurumsal</span>
+                        <span>İletişim</span>
+                    </div>
+                    <div class="w-1/3 flex flex-col space-y-2 items-start justify-start">
+                        <h4 class="text-lg font-bold font-lato items-start flex justify-start">Kurumsal</h4>
+                        <div class="flex flex-col justify-start w-full"></div>
+                        <span>Hakkımızda</span>
+                        <span>Kurumsal</span>
+                        <span>İletişim</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center my-10">
+            ©  2021 aracbul.com tüm hakları saklıdır.
+        </div>
+    </div>
+</div>
 
 </div>
 
