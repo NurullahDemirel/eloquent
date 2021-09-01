@@ -36,4 +36,8 @@ Route::get('/0-km', function () {
     return view('0-km anasayfa');
 });
 
+Route::get('/ilan-listeleme', function () {
+    return view('ilan-listeleme');
+});
+
 

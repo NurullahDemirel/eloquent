@@ -2,6 +2,10 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
           integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </head>
 <body class="flex flex-col">
 
@@ -196,8 +200,7 @@
     </div>
 </section>
 
-<div
-    class="flex flex-col space-y-2 bg-white justify-center w-3/4 mx-auto rounded-3xl shadow-lg h-auto relative -top-20">
+<div class="flex flex-col space-y-2 bg-white justify-center w-3/4 mx-auto rounded-3xl shadow-lg h-auto relative -top-20">
     <div class="flex flex-row items-center justify-around my-5">
         <div class="flex justify-between space-x-4">
             <div class="flex space-x-2">
@@ -290,7 +293,7 @@
         <div class="w-11/12 flex items-center mx-auto space-y-4 flex-wrap">
             <div class="w-full flex space-x-4 space-y-4">
                 <div class="w-1/3 flex flex-col bg-grayBackground rounded-2xl justify-center space-y-6 pt-4 pb-5">
-                    <div class="w-full flex flex-col space-y-2" >
+                    <div class="w-full flex flex-col space-y-2">
                         <div class="car-model flex justify-center">
                             <span class="text-sm uppercase font-lato font-bold">Audi A8 L</span>
                         </div>
@@ -311,14 +314,16 @@
 
                         <div class="flex justify-center">
                             <div class="flex justify-between space-x-4">
-                                <a href="" class="bg-btnBlue-dark rounded-xl px-6 py-4 text-white font-bold font-lato">seç ve teklif al</a>
-                                <a href="" class="bg-btnBlue-light rounded-xl px-6 py-4 text-white font-bold font-lato">detayı incele</a>
+                                <a href="" class="bg-btnBlue-dark rounded-xl px-6 py-4 text-white font-bold font-lato">seç
+                                    ve teklif al</a>
+                                <a href="" class="bg-btnBlue-light rounded-xl px-6 py-4 text-white font-bold font-lato">detayı
+                                    incele</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="w-1/3 flex flex-col bg-grayBackground rounded-2xl justify-center space-y-6 pt-4 pb-5">
-                    <div class="w-full flex flex-col space-y-2" >
+                    <div class="w-full flex flex-col space-y-2">
                         <div class="car-model flex justify-center">
                             <span class="text-sm uppercase font-lato font-bold">Audi A8 L</span>
                         </div>
@@ -339,14 +344,16 @@
 
                         <div class="flex justify-center">
                             <div class="flex justify-between space-x-4">
-                                <a href="" class="bg-btnBlue-dark rounded-xl px-6 py-4 text-white font-bold font-lato">seç ve teklif al</a>
-                                <a href="" class="bg-btnBlue-light rounded-xl px-6 py-4 text-white font-bold font-lato">detayı incele</a>
+                                <a href="" class="bg-btnBlue-dark rounded-xl px-6 py-4 text-white font-bold font-lato">seç
+                                    ve teklif al</a>
+                                <a href="" class="bg-btnBlue-light rounded-xl px-6 py-4 text-white font-bold font-lato">detayı
+                                    incele</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="w-1/3 flex flex-col bg-grayBackground rounded-2xl justify-center space-y-6 pt-4 pb-5">
-                    <div class="w-full flex flex-col space-y-2" >
+                    <div class="w-full flex flex-col space-y-2">
                         <div class="car-model flex justify-center">
                             <span class="text-sm uppercase font-lato font-bold">Audi A8 L</span>
                         </div>
@@ -367,8 +374,10 @@
 
                         <div class="flex justify-center">
                             <div class="flex justify-between space-x-4">
-                                <a href="" class="bg-btnBlue-dark rounded-xl px-6 py-4 text-white font-bold font-lato">seç ve teklif al</a>
-                                <a href="" class="bg-btnBlue-light rounded-xl px-6 py-4 text-white font-bold font-lato">detayı incele</a>
+                                <a href="" class="bg-btnBlue-dark rounded-xl px-6 py-4 text-white font-bold font-lato">seç
+                                    ve teklif al</a>
+                                <a href="" class="bg-btnBlue-light rounded-xl px-6 py-4 text-white font-bold font-lato">detayı
+                                    incele</a>
                             </div>
                         </div>
                     </div>
@@ -376,7 +385,7 @@
             </div>
             <div class="w-full flex space-x-4 space-y-4">
                 <div class="w-1/3 flex flex-col bg-grayBackground rounded-2xl justify-center space-y-6 pt-4 pb-5">
-                    <div class="w-full flex flex-col space-y-2" >
+                    <div class="w-full flex flex-col space-y-2">
                         <div class="car-model flex justify-center">
                             <span class="text-sm uppercase font-lato font-bold">Audi A8 L</span>
                         </div>
@@ -397,14 +406,16 @@
 
                         <div class="flex justify-center">
                             <div class="flex justify-between space-x-4">
-                                <a href="" class="bg-btnBlue-dark rounded-xl px-6 py-4 text-white font-bold font-lato">seç ve teklif al</a>
-                                <a href="" class="bg-btnBlue-light rounded-xl px-6 py-4 text-white font-bold font-lato">detayı incele</a>
+                                <a href="" class="bg-btnBlue-dark rounded-xl px-6 py-4 text-white font-bold font-lato">seç
+                                    ve teklif al</a>
+                                <a href="" class="bg-btnBlue-light rounded-xl px-6 py-4 text-white font-bold font-lato">detayı
+                                    incele</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="w-1/3 flex flex-col bg-grayBackground rounded-2xl justify-center space-y-6 pt-4 pb-5">
-                    <div class="w-full flex flex-col space-y-2" >
+                    <div class="w-full flex flex-col space-y-2">
                         <div class="car-model flex justify-center">
                             <span class="text-sm uppercase font-lato font-bold">Audi A8 L</span>
                         </div>
@@ -425,14 +436,16 @@
 
                         <div class="flex justify-center">
                             <div class="flex justify-between space-x-4">
-                                <a href="" class="bg-btnBlue-dark rounded-xl px-6 py-4 text-white font-bold font-lato">seç ve teklif al</a>
-                                <a href="" class="bg-btnBlue-light rounded-xl px-6 py-4 text-white font-bold font-lato">detayı incele</a>
+                                <a href="" class="bg-btnBlue-dark rounded-xl px-6 py-4 text-white font-bold font-lato">seç
+                                    ve teklif al</a>
+                                <a href="" class="bg-btnBlue-light rounded-xl px-6 py-4 text-white font-bold font-lato">detayı
+                                    incele</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="w-1/3 flex flex-col bg-grayBackground rounded-2xl justify-center space-y-6 pt-4 pb-5">
-                    <div class="w-full flex flex-col space-y-2" >
+                    <div class="w-full flex flex-col space-y-2">
                         <div class="car-model flex justify-center">
                             <span class="text-sm uppercase font-lato font-bold">Audi A8 L</span>
                         </div>
@@ -453,8 +466,10 @@
 
                         <div class="flex justify-center">
                             <div class="flex justify-between space-x-4">
-                                <a href="" class="bg-btnBlue-dark rounded-xl px-6 py-4 text-white font-bold font-lato">seç ve teklif al</a>
-                                <a href="" class="bg-btnBlue-light rounded-xl px-6 py-4 text-white font-bold font-lato">detayı incele</a>
+                                <a href="" class="bg-btnBlue-dark rounded-xl px-6 py-4 text-white font-bold font-lato">seç
+                                    ve teklif al</a>
+                                <a href="" class="bg-btnBlue-light rounded-xl px-6 py-4 text-white font-bold font-lato">detayı
+                                    incele</a>
                             </div>
                         </div>
                     </div>
@@ -473,10 +488,10 @@
     </div>
 </div>
 
-<div class="hardware-packages-items w-full mb-10">
+<div class="w-full mb-10">
 
 
-    <div class="snap-start w-11/12 h-full flex items-center justify-center flex-shrink-0 flex-grow-1 space-x-10" id="slide-1">
+    <div class="snap-start w-11/12 mx-auto h-full flex items-center justify-center  space-x-10" id="slide-1">
         <div class="w-1/2">
             <div class="flex flex-col justify-center items-center bg-grayBackground mx-auto rounded-2xl w-full">
                 <div class="flex divide-x divide-gray-900 w-full">
@@ -511,7 +526,7 @@
             </div>
         </div>
         <div class="w-1/2">
-            <div class="flex flex-col justify-center items-center bg-grayBackground mx-auto rounded-2xl w-full" >
+            <div class="flex flex-col justify-center items-center bg-grayBackground mx-auto rounded-2xl w-full">
                 <div class="flex divide-x divide-gray-900">
                     <img src="{{asset('img/audi 4.png')}}" alt="">
                     <img src="{{asset('img/audi 4.png')}}" alt="">
@@ -543,6 +558,17 @@
 
             </div>
         </div>
+    </div>
+</div>
+
+<div class="w-full gallery my-10">
+    <div class="carousel" data-flickity='{ "imagesLoaded": true, "percentPosition": false }'>
+        <img src="{{asset('img/1_mobile 1.png')}}" alt="bmw i4" />
+        <img src="{{asset('img/1_mobile 1.png')}}" alt="bmw i4" />
+        <img src="{{asset('img/1_mobile 1.png')}}" alt="bmw i4" />
+        <img src="{{asset('img/1_mobile 1.png')}}" alt="bmw i4" />
+        <img src="{{asset('img/1_mobile 1.png')}}" alt="bmw i4" />
+
     </div>
 </div>
 
@@ -721,8 +747,10 @@
                 </div>
             </div>
 
-            <div class="m-5 bg-grayBackground rounded flex px-5 py-5 divide-x divide-gray-600 w-full items-center hover:border-blue-800 hover:border">
-                <input type="text" placeholder="yorum yazmak için tıklayın" class="text-sm text-gray-800 w-full bg-grayBackground focus:outline-none">
+            <div
+                class="m-5 bg-grayBackground rounded flex px-5 py-5 divide-x divide-gray-600 w-full items-center hover:border-blue-800 hover:border">
+                <input type="text" placeholder="yorum yazmak için tıklayın"
+                       class="text-sm text-gray-800 w-full bg-grayBackground focus:outline-none">
                 <a href="" class="flex justify-center bg-searchButton px-3 py-6 text-white font-lato rounded-2xl">
                     gönder
                 </a>
@@ -730,7 +758,6 @@
         </div>
     </div>
 </div>
-
 
 <div class="footer w-full">
     <div class="flex flex-col w-11/12 mx-auto mt-10">
@@ -818,12 +845,14 @@
             </div>
         </div>
         <div class="flex justify-center my-10">
-            ©  2021 aracbul.com tüm hakları saklıdır.
+            © 2021 aracbul.com tüm hakları saklıdır.
         </div>
     </div>
 </div>
 
-</div>
+
+
+
 
 
 </body>
