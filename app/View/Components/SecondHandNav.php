@@ -2,21 +2,18 @@
 
 namespace App\View\Components;
 
-use App\Models\User;
 use Illuminate\View\Component;
 
-class CarCard extends Component
+class SecondHandNav extends Component
 {
-
-    public $user;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct(User $user)
+    public function __construct()
     {
-        $this->$user = $user;
+        //
     }
 
     /**
@@ -26,6 +23,6 @@ class CarCard extends Component
      */
     public function render()
     {
-        return view('components.car-card');
+        return view('components.second-hand-nav');
     }
 }
