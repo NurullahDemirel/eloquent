@@ -41,4 +41,21 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+    public function phone(){ //one to one
+        return $this->hasOne(Phone::class ,'user_id','id');
+    }
+
+    public function myCommnets(){//one to manny
+        return $this->hasMany(Comment::class,'user_id','id');
+    }
+
+    public function myRoles(){//many to many
+            return $this->belongsToMany(Role::class,'role_users','user_id','role_id')->withTimestamps();
+    }
+
+    public function image()
+    {
+        return $this->morphOne(Image::class, 'imageable');
+    }
+
 }

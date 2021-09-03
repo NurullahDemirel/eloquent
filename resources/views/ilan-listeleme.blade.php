@@ -29,9 +29,6 @@
             <x-second-hand-car-card />
             <x-second-hand-car-card />
         </div>
-
     </div>
 </div>
-
-
 </body>
