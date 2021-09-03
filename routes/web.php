@@ -157,11 +157,6 @@ Route::get('test', function () {
     $proje=\App\Models\Proje::find(1);
 
 
-
-
-
-
-
 });
 
 
